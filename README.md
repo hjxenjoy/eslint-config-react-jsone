@@ -1,6 +1,6 @@
 # eslint-config-react-jsone
 
-eslint config for create-react-app with typescript
+eslint config for create-react-app
 
 ## Installation
 
@@ -48,7 +48,7 @@ create `.prettierrc` file into root directory
 }
 ```
 
-### Add eslint autoFixOnSave & ts file error tips
+### Add eslint autoFixOnSave
 
 Add code below into `.vscode/settings.json`
 
