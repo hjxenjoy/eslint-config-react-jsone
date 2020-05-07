@@ -54,7 +54,8 @@ Add code below into `.vscode/settings.json`
 
 ```json
 {
-  "eslint.autoFixOnSave": true,
-  "eslint.validate": ["javascript", "javascriptreact"]
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
 ```
